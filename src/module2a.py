@@ -2,7 +2,7 @@ from turtle import *
 # speed()
 penup()
 goto(-100,140)
-for step in range(100):
+for step in range(15):
     write (step,align='center')
     right(90)
     forward(10)
@@ -12,3 +12,5 @@ for step in range(100):
     backward(160)
     left(90)
     forward(20)
+#     pendown()
+#     right(135)
